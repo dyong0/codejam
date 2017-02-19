@@ -38,3 +38,8 @@ largeE: E.cpp
 	g++ -o E $< -I. -Wall -std=c++11
 	./E < `ls -1 | egrep E-largeE.*\.in | head -n1` > E-largeE.out
 
+.PHONY: clean
+
+clean:
+	rm -rf A B C D E
+	rm -rf A*.out B*.out C*.out D*.out E*.out
