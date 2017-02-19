@@ -13,7 +13,7 @@ int main() {
     init();
 
     int nCases; cin >> nCases;
-    for (int i=1; i<=nCases; i++)
+    for (int i=1; i<=nCases; i++) {
         //INPUT
 
 
