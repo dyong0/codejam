@@ -10,6 +10,8 @@
 #include <functional>
 #include <utility>
 #include <string>
+#include <sstream>
+#include <iterator>
 #include <limits>
 #include <random>
 #include <cmath>
