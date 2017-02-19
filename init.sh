@@ -1,5 +1,4 @@
-#! /bin/sh
-
+#! /bin/bash
 TEMPLATE_DIR=$(dirname "$0")/template
 DEST_DIR=.
 
