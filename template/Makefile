@@ -8,7 +8,7 @@ smallA: A.cpp
 
 largeA: A.cpp
 	g++ -o A $< -I. -Wall -std=c++11
-	./A < `ls -1 | egrep A-largeA.*\.in | head -n1` > A-largeA.out
+	./A < `ls -1 | egrep A-large.*\.in | head -n1` > A-large.out
 
 testB: B.cpp
 	g++ -o B $< -I. -Wall -std=c++11
@@ -20,7 +20,7 @@ smallB: B.cpp
 
 largeB: B.cpp
 	g++ -o B $< -I. -Wall -std=c++11
-	./B < `ls -1 | egrep B-largeB.*\.in | head -n1` > B-largeB.out
+	./B < `ls -1 | egrep B-large.*\.in | head -n1` > B-large.out
 
 testC: C.cpp
 	g++ -o C $< -I. -Wall -std=c++11
@@ -32,7 +32,7 @@ smallC: C.cpp
 
 largeC: C.cpp
 	g++ -o C $< -I. -Wall -std=c++11
-	./C < `ls -1 | egrep C-largeC.*\.in | head -n1` > C-largeC.out
+	./C < `ls -1 | egrep C-large.*\.in | head -n1` > C-large.out
 
 testD: D.cpp
 	g++ -o D $< -I. -Wall -std=c++11
@@ -44,7 +44,7 @@ smallD: D.cpp
 
 largeD: D.cpp
 	g++ -o D $< -I. -Wall -std=c++11
-	./D < `ls -1 | egrep D-largeD.*\.in | head -n1` > D-largeD.out
+	./D < `ls -1 | egrep D-large.*\.in | head -n1` > D-large.out
 
 testE: E.cpp
 	g++ -o E $< -I. -Wall -std=c++11
@@ -56,7 +56,7 @@ smallE: E.cpp
 
 largeE: E.cpp
 	g++ -o E $< -I. -Wall -std=c++11
-	./E < `ls -1 | egrep E-largeE.*\.in | head -n1` > E-largeE.out
+	./E < `ls -1 | egrep E-large.*\.in | head -n1` > E-large.out
 
 .PHONY: clean
 
